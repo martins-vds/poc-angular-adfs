@@ -1,4 +1,4 @@
-name: .NET
+name: Angular & ASP.NET Core CI/CD
 
 env:
   configuration: 'Release' 
