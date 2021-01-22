@@ -27,6 +27,7 @@ namespace Angular.Controllers
         }
 
         [HttpGet]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "SecurityIntelliSenseCS:MS Security rules violation", Justification = "<Pending>")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
