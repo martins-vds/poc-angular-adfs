@@ -7,7 +7,7 @@ on:
   push:
     branches: [ master ]
     paths-ignore:
-      - .github
+      - '.github/**'
   pull_request:
     branches: [ master ]
   workflow_dispatch:    
